@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Bohidar | Computer Science & Software Developer</title>
+  <meta name="description" content="Personal portfolio of Aryan Bohidar, Computer Science & Engineering student and Software Developer." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome or Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Animated Background Gradient Mesh -->
+  <div class="gradient-mesh">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Sticky Glassmorphism Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <div class="logo-icon">&lt;/&gt;</div>
+        <span class="logo-text">aryan<span>.dev</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <span class="sun-icon">☀️</span>
+          <span class="moon-icon">🌙</span>
+        </button>
+        <a href="#contact" class="btn btn-sm btn-primary">Let's Connect</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Available for SWE Roles &amp; Internships</span>
+          </div>
+          <h1 class="hero-title">
+            Hello, I'm <br />
+            <span class="gradient-text">Aryan Bohidar</span>
+          </h1>
+          <div class="typing-container">
+            <span class="typing-prefix">&gt; </span>
+            <span class="typed-text" id="typed-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+          <p class="hero-bio">
+            Computer Science &amp; Engineering student passionate about crafting high-performance full-stack web applications, scalable backend systems, and responsive, interactive digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects &rarr;</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com/aryanbohidar001" target="_blank" rel="noreferrer" class="social-link">GitHub</a>
+            <a href="https://linkedin.com/in/aryanbohidar" target="_blank" rel="noreferrer" class="social-link">LinkedIn</a>
+            <a href="mailto:aryanbohidar001@gmail.com" class="social-link">Email</a>
+          </div>
+        </div>
+
+        <!-- Right Side: Circular Profile Picture with Glowing Ring -->
+        <div class="hero-visual">
+          <div class="pulsing-halo"></div>
+          <div class="profile-card">
+            <div class="avatar-ring">
+              <div class="avatar-inner">
+                <img class="avatar-photo" src="https://github.com/aryanbohidar001.png" alt="Aryan Bohidar" />
+              </div>
+            </div>
+            <div class="profile-details">
+              <h3>Aryan Bohidar</h3>
+              <p>B.Tech CSE &bull; Full-Stack Dev</p>
+              <div class="focus-badge">Next.js &bull; Django &bull; Systems</div>
+            </div>
+          </div>
+          <div class="floating-pill pill-top">Python &bull; Java</div>
+          <div class="floating-pill pill-bottom">Next.js &bull; SQL</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Core Pillars</span>
+          <h2>About Me &amp; What I Do</h2>
+          <p>Driven by foundational computer science principles, clean architecture, and modern web technologies.</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-num">45+</div>
+            <div class="stat-name">DSA Solved</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">12+</div>
+            <div class="stat-name">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">Top 5%</div>
+            <div class="stat-name">Academic Standing</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">200+</div>
+            <div class="stat-name">Git Commits</div>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <div class="interest-card glass-card">
+            <div class="card-icon">⚡</div>
+            <h3>Full-Stack Web Development</h3>
+            <p>Modern responsive frontends using Next.js and React paired with seamless RESTful microservices and state management.</p>
+            <div class="pill-group">
+              <span>Next.js</span>
+              <span>React</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="interest-card glass-card">
+            <div class="card-icon">🛠️</div>
+            <h3>Backend Engineering</h3>
+            <p>Scalable server architectures, relational schema design, query optimization, and REST API development with Django and PostgreSQL.</p>
+            <div class="pill-group">
+              <span>Django</span>
+              <span>Python</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="interest-card glass-card">
+            <div class="card-icon">🎨</div>
+            <h3>Graphic &amp; UI Design</h3>
+            <p>Clean typography, dark glassmorphism, responsive CSS Grid layouts, and high-contrast micro-interactions for seamless UX.</p>
+            <div class="pill-group">
+              <span>Figma</span>
+              <span>UI/UX</span>
+              <span>Design Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Proficiencies</span>
+          <h2>Tech Stack &amp; Skills</h2>
+          <p>Categorized technologies and tools I utilize in day-to-day software development.</p>
+        </div>
+
+        <div class="skill-tabs">
+          <button class="skill-tab active" data-category="all">All Skills</button>
+          <button class="skill-tab" data-category="languages">Languages</button>
+          <button class="skill-tab" data-category="web">Web &amp; Frameworks</button>
+          <button class="skill-tab" data-category="tools">Tools &amp; Databases</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Languages -->
+          <div class="skill-badge glass-card" data-category="languages">
+            <span class="skill-dot" style="background:#3b82f6;"></span>
+            <span class="skill-name">Python</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="languages">
+            <span class="skill-dot" style="background:#f97316;"></span>
+            <span class="skill-name">Java</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="languages">
+            <span class="skill-dot" style="background:#06b6d4;"></span>
+            <span class="skill-name">C</span>
+            <span class="skill-level">Proficient</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="languages">
+            <span class="skill-dot" style="background:#a855f7;"></span>
+            <span class="skill-name">SQL</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="languages">
+            <span class="skill-dot" style="background:#eab308;"></span>
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+
+          <!-- Web -->
+          <div class="skill-badge glass-card" data-category="web">
+            <span class="skill-dot" style="background:#10b981;"></span>
+            <span class="skill-name">Django</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="web">
+            <span class="skill-dot" style="background:#f97316;"></span>
+            <span class="skill-name">HTML5</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="web">
+            <span class="skill-dot" style="background:#38bdf8;"></span>
+            <span class="skill-name">CSS3</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="web">
+            <span class="skill-dot" style="background:#06b6d4;"></span>
+            <span class="skill-name">React</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="web">
+            <span class="skill-dot" style="background:#6366f1;"></span>
+            <span class="skill-name">Tailwind CSS</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-badge glass-card" data-category="tools">
+            <span class="skill-dot" style="background:#f97316;"></span>
+            <span class="skill-name">Git</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="tools">
+            <span class="skill-dot" style="background:#ffffff;"></span>
+            <span class="skill-name">GitHub</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="tools">
+            <span class="skill-dot" style="background:#3b82f6;"></span>
+            <span class="skill-name">PostgreSQL</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="tools">
+            <span class="skill-dot" style="background:#0284c7;"></span>
+            <span class="skill-name">MySQL</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="skill-badge glass-card" data-category="tools">
+            <span class="skill-dot" style="background:#38bdf8;"></span>
+            <span class="skill-name">VS Code</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Featured Work</span>
+          <h2>Projects</h2>
+          <p>Interactive projects featuring full-stack architecture, backend APIs, and systems engineering.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Card 1 -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="DevCollab" />
+              <div class="project-overlay">
+                <span class="category-tag">Full Stack</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>DevCollab - Developer Workspace</h3>
+              <p>Real-time collaborative developer platform with live synchronized code sharing, Kanban boards, and GitHub integration.</p>
+              <div class="pill-group">
+                <span>Next.js</span>
+                <span>React</span>
+                <span>PostgreSQL</span>
+                <span>WebSockets</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://demo-devcollab.vercel.app" target="_blank" rel="noreferrer" class="btn btn-sm btn-primary">Live Demo</a>
+                <a href="https://github.com/aryanbohidar001/devcollab-platform" target="_blank" rel="noreferrer" class="btn btn-sm btn-secondary">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="Django REST Core" />
+              <div class="project-overlay">
+                <span class="category-tag">Backend</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>SizeDrop — Smart Image & PDF Compression Web App</h3>
+              <p>High-throughput RESTful API with token-based authentication, rate limiting, and asynchronous Celery task queues.</p>
+              <div class="pill-group">
+                <span>Django</span>
+                <span>Python</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://sizedrop.netlify.app" target="_blank" rel="noreferrer" class="btn btn-sm btn-primary">Live Demo</a>
+                <a href="https://github.com/aryanbohidar001/sizedrop" target="_blank" rel="noreferrer" class="btn btn-sm btn-secondary">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="project-card glass-card tilt-card">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=800&auto=format&fit=crop" alt="Algorithm Visualizer" />
+              <div class="project-overlay">
+                <span class="category-tag">Web &amp; UI</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Interactive Algorithm Visualizer</h3>
+              <p>Real-time visualizer for graph traversal and sorting algorithms with custom speed controls and time complexity metrics.</p>
+              <div class="pill-group">
+                <span>JavaScript</span>
+                <span>HTML5 Canvas</span>
+                <span>CSS3</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://algo-visualizer-suite.vercel.app" target="_blank" rel="noreferrer" class="btn btn-sm btn-primary">Live Demo</a>
+                <a href="https://github.com/aryanbohidar001/algorithm-visualizer" target="_blank" rel="noreferrer" class="btn btn-sm btn-secondary">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Milestones</span>
+          <h2>Education &amp; Achievements</h2>
+          <p>Academic progression and technical competitive distinctions.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 - Present</div>
+            <div class="timeline-card glass-card">
+              <h3>B.Tech in Computer Science &amp; Engineering</h3>
+              <span class="timeline-sub">Undergraduate Degree Program</span>
+              <p>Key Coursework: Data Structures &amp; Algorithms, Database Management Systems, Operating Systems, Computer Networks.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2025</div>
+            <div class="timeline-card glass-card">
+              <h3>BPUT Hackathon </h3>
+              <span class="timeline-sub">VOICE CV</span>
+              <p>Awarded "Best Technical Architecture" for architecting a resilient triage dispatch backend using Django and PostgreSQL within 36 hours.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2026</div>
+            <div class="timeline-card glass-card">
+              <h3>SIH Hackathon </h3>
+              <span class="timeline-sub">kalakarft</span>
+              <p>Awarded "Best Technical Architecture" for architecting a resilient triage dispatch backend using Django and PostgreSQL within 36 hours.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024</div>
+            <div class="timeline-card glass-card">
+              <h3>45+ Algorithmic Challenges Solved</h3>
+              <span class="timeline-sub">LeetCode &amp; Competitive Programming</span>
+              <p>Mastered Dynamic Programming, Graph Theory, and Tree traversal algorithms with top 10% global ranking on LeetCode.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Connect</span>
+          <h2>Contact Me</h2>
+          <p>Interested in collaborating or have an open engineering role? Send a message below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info glass-card">
+            <h3>Get in Touch</h3>
+            <p>I am available for software engineering internships, developer roles, and freelance consulting.</p>
+            
+            <div class="email-box">
+              <span class="email-label">Email Address:</span>
+              <div class="email-row">
+                <span id="email-text">aryanbohidar001@gmail.com</span>
+                <button id="copy-btn" class="btn btn-sm btn-secondary">Copy</button>
+              </div>
+            </div>
+
+            <div class="info-meta">
+              <div><strong>Location:</strong> India</div>
+              <div><strong>Response Time:</strong> Within 24h</div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper glass-card">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required placeholder="John Doe" />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="john@example.com" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required placeholder="Hello Aryan, I'd like to talk about..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message &rarr;</button>
+              <div id="form-status" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">aryan.dev</div>
+      <p>&copy; 2024 Aryan Bohidar. All rights reserved.</p>
+      <a href="#hero" class="back-to-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
